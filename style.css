@@ -46,6 +46,10 @@ nav ul {
     background-color: rgb(242, 234, 250);
 }
 
+.info{
+    font-size: 22px;
+}
+
 .gameInfo{
     padding: 0 34px;
     font-family: 'Baloo Bhaina 2', cursive;
