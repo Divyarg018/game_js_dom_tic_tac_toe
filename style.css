@@ -42,6 +42,19 @@ nav ul {
     justify-content: center;
     align-items: center;
 }
+.box:hover{
+    background-color: rgb(242, 234, 250);
+}
+
+.gameInfo{
+    padding: 0 34px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.imgbox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
 
 .br-0{
     border-right: 0;
@@ -59,7 +72,18 @@ nav ul {
     border-bottom: 0;
 }
 
-.box:hover{
-    background-color: rgb(242, 234, 250);
+#reset {
+    margin: 0 23px;
+    padding: 1px 18px;
+    background: #f3e7f9;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina 2';
+    font-size: 15px;
+    font-weight: bolder;
 }
+
+
+
+
 
