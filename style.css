@@ -22,7 +22,6 @@ nav ul {
 
 
 .gameContainer{ 
-    background-color: yellow;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -32,7 +31,7 @@ nav ul {
     display: grid;
     grid-template-rows: repeat(3, 10vw);
     grid-template-columns: repeat(3, 10vw);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; 
 }
 
 .box{
@@ -44,6 +43,23 @@ nav ul {
     align-items: center;
 }
 
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+
 .box:hover{
     background-color: rgb(242, 234, 250);
 }
+
